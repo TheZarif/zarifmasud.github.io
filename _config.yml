@@ -7,7 +7,7 @@ name                     : &name "Zarif Masud"
 description              : &description "PhD student at TMU • Responsible AI, Information Retrieval, & Migration Tech"
 url                      : https://thezarif.github.io
 baseurl                  : ""  # user site = empty
-repository               : "TheZarif/zarifmasud.github.io"
+repository               : "TheZarif/thezarif.github.io"
 
 # Site Author (left sidebar/profile card)
 author:

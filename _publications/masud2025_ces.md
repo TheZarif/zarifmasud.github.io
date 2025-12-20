@@ -1,5 +1,6 @@
 ---
 title: "Partisan perspectives on AI and immigration: An analysis of Canadian parliamentary discourse (2014–2024)"
+category: manuscripts
 authors: "Sawafta, E., Masud, Z., Abu-Laban, Y., Ahmed, S. I., Bagheri, E., & Rockwell, G."
 venue: "Canadian Ethnic Studies (in press)"
 year: 2025

@@ -1,6 +1,7 @@
 ---
 title: "SAFFRON: A Semi-Automated Framework for Software Requirements Prioritization"
 authors: "Syed Ali Asif, Zarif Masud, et al."
+category: manuscripts
 venue: "International Journal of Advanced Computer Science and Applications, Vol. 8, No. 12"
 year: 2017
 paperurl: "https://thesai.org/Publications/ViewPaper?Volume=8&Issue=12&Code=IJACSA&SerialNo=83"

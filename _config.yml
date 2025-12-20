@@ -3,7 +3,7 @@ locale                   : "en-US"
 site_theme               : "default" # options: "default", "air"
 title                    : "Zarif Masud"
 title_separator          : "-"
-name                     : &name "Zarif Masud"
+name                     : &name  "Zarif Masud"
 description              : &description "PhD student at TMU • Responsible AI, Information Retrieval, & Migration Tech"
 url                      : https://www.zarifmasud.net
 baseurl                  : ""  # user site = empty
@@ -23,7 +23,7 @@ author:
   # Academic websites
   academia         :
   arxiv            :
-  googlescholar    : "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
+  googlescholar    : "https://scholar.google.com/citations?user=AjSsN60AAAAJ"
   inspire-hep      :
   impactstory      :
   orcid            :
@@ -69,12 +69,14 @@ author:
 
 # Publication Category Headings
 publication_category:
+  preprint:
+    title: "🧾 Preprints"
+  thesis:
+    title: "🎓 Thesis"
   books:
-    title: 'Books'
+    title: "📖 Books"
   manuscripts:
-    title: 'Journal Articles'
-  conferences:
-    title: 'Conference Papers'
+    title: "📜 Journal Articles & Workshops"
 
 # Site Settings
 teaser                   :

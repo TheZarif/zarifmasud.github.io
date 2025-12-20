@@ -51,3 +51,12 @@
   object-position: center 0% !important; /* adjust vertical position as preferred */
   border:none !important;          /* remove any borders */
 }
+
+/* --- Inter font weights for professional, thin look --- */
+body {
+  font-weight: 400; /* Regular weight for body text */
+}
+
+strong, b {
+  font-weight: 600; /* Semi-bold for emphasis */
+}

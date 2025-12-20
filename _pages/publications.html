@@ -13,21 +13,24 @@ author_profile: true
 
 <!-- New style rendering if publication categories are defined -->
 {% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
+  {% assign category_order = "manuscripts,thesis,books,preprint" | split: "," %}
+  {% for category_key in category_order %}
+    {% assign category = site.publication_category[category_key] %}
+    {% if category %}
+      {% assign title_shown = false %}
+      {% assign category_pubs = site.publications | where: "category", category_key | sort: "year" | reverse %}
+      {% for post in category_pubs %}
+        {% unless title_shown %}
+          <h2>{{ category.title }}</h2><hr />
+          {% assign title_shown = true %}
+        {% endunless %}
+        {% include archive-single.html %}
+      {% endfor %}
+    {% endif %}
   {% endfor %}
 {% else %}
-  {% for post in site.publications reversed %}
+  {% assign sorted_pubs = site.publications | sort: "year" | reverse %}
+  {% for post in sorted_pubs %}
     {% include archive-single.html %}
   {% endfor %}
 {% endif %}

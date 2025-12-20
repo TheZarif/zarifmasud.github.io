@@ -69,14 +69,14 @@ author:
 
 # Publication Category Headings
 publication_category:
-  preprint:
-    title: "🧾 Preprints"
-  thesis:
-    title: "🎓 Thesis"
-  books:
-    title: "📖 Books"
   manuscripts:
-    title: "📜 Journal Articles & Workshops"
+    title: "Journal Articles & Workshops"
+  thesis:
+    title: "Thesis"
+  books:
+    title: "Books"
+  preprint:
+    title: "Preprints"
 
 # Site Settings
 teaser                   :

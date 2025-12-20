@@ -116,7 +116,7 @@ atom_feed:
   path                   :
 
 # SEO
-google_site_verification :
+google_site_verification : nZWagmmTTYSV5sxZa43nuiuCBICTGvXiKkB4gXX397s
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
@@ -283,6 +283,8 @@ plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
   - jemoji
+  - jekyll-seo-tag
+
 
 # Mimic GitHub Pages with --safe
 whitelist:
@@ -292,6 +294,7 @@ whitelist:
   - jekyll-sitemap
   - jekyll-redirect-from
   - jemoji
+  - jekyll-seo-tag
 
 # Archives
 category_archive:
